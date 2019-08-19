@@ -1,0 +1,37 @@
+{
+  "name": "apollo-bug",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@apollo/react-testing": "^3.0.1",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.5.0",
+    "jest": "^24.5.0",
+    "react-test-renderer": "^16.8.4"
+  },
+  "dependencies": {
+    "@apollo/react-components": "^3.0.1",
+    "@apollo/react-hooks": "^3.0.1",
+    "apollo-cache-inmemory": "^1.5.1",
+    "apollo-client": "^2.5.1",
+    "apollo-link": "^1.2.11",
+    "apollo-link-error": "^1.1.10",
+    "apollo-link-http": "^1.5.14",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
